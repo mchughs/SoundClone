@@ -1,0 +1,52 @@
+.TimeBar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.Counter {
+  color: #1178f7;
+  padding-right: 10px;
+}
+
+.MaxTime {
+  padding-left: 10px;
+}
+
+.TimePassed {
+  position: relative;
+  width: 1000px;
+  padding-right: 10px;
+}
+
+.Background {
+  position: absolute;
+  background-color: #CCC;
+  height: 1px;
+  width: 100%;
+}
+
+.Progress {
+  position: absolute;
+  background-color: #1178f7;
+  height: 1px;
+  transition: width 50ms;
+}
+
+.Slider {
+  position: absolute;
+  border: 1px solid #1178f7;
+  border-radius: 100%;
+  height: 8px;
+  width: 8px;
+  background-color: #1178f7;
+  box-sizing: border-box;
+  margin-top: -4px;
+  margin-left: -4px;
+  opacity: 0;
+  transition: opacity 150ms;
+}
+
+.TimeBar:hover .Slider{
+  opacity: 1;
+}

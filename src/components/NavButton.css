@@ -1,0 +1,15 @@
+.NavButton {
+  height: 50px;
+  display: flex;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+  border-left: 1px solid;
+  border-color: white;
+}
+
+.NavButton:hover,
+.NavButton:active,
+.NavButton.active {
+  border-bottom: 6px solid #0EC9F8;
+}

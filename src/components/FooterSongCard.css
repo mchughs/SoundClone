@@ -1,0 +1,10 @@
+.FooterSongCard {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+.Art {
+  height: 40px;
+  padding-right: 10px;
+}
